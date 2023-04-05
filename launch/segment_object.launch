@@ -1,0 +1,6 @@
+<launch>
+   <arg name="object_class" default="0"/>
+    <node pkg="my_pcl_package" type="yolov7_segmenter" name="object_segmenter" output="screen"
+    ns="segment_object">
+    </node>
+</launch>
